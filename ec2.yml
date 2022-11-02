@@ -3,9 +3,9 @@ Resources:
   MyInstance:
     Type: 'AWS::EC2::Instance'
     Properties:
-      ImageId: ami-0b89f7b3f054b957e 
+      ImageId: ami-070b208e993b59cea 
       InstanceType: t2.micro
-      KeyName: Naresh
+      KeyName: account-frank
       SecurityGroups:
         - !Ref WebServerSecurityGroup
   WebServerSecurityGroup:
